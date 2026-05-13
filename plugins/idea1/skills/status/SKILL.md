@@ -1,11 +1,11 @@
 ---
 name: idea1:status
-description: Check the status of the Idea1.ai plugin connection, verify OAuth authentication, and see which team and project are active.
+description: Check the status of the Idea1 plugin connection, verify OAuth authentication, and see which team and project are active.
 ---
 
-# Idea1.ai Connection Status Check
+# Idea1 Connection Status Check
 
-Use this skill to verify the Idea1.ai plugin is connected and working correctly.
+Use this skill to verify the Idea1 plugin is connected and working correctly.
 
 ## Steps
 
@@ -13,7 +13,7 @@ Use this skill to verify the Idea1.ai plugin is connected and working correctly.
 
    a. **Latest version** — Call `mcp__idea1__get_plugin_versions` to get the latest available plugin version. The result contains a `plugins` object with plugin names as keys and version strings as values (e.g., `plugins.idea1`). This also verifies MCP connectivity and authentication.
 
-   b. **Installed version** — The installed version is: `1.0.0`
+   b. **Installed version** — The installed version is: `1.0.1`
       If this still shows a value containing `{{`, the version was not injected at build time — report the installed version as "unknown".
 
 2. After both checks complete, determine connection and version status:
@@ -27,8 +27,8 @@ Use this skill to verify the Idea1.ai plugin is connected and working correctly.
 Report results in this format:
 
 ```
-Idea1.ai Plugin Status
-----------------------
+Idea1 Plugin Status
+-------------------
 Connection:     [Connected / Failed]
 Authentication: [Authenticated / Not authenticated]
 MCP Server:     https://api.idea1.ai/v1/mcp
@@ -42,4 +42,4 @@ For the Version line:
 
 If the connection fails, include recovery steps:
 - Re-run `/idea1:status` after resolving the issue
-- Check that the Idea1.ai plugin is installed correctly
+- Check that the Idea1 plugin is installed correctly

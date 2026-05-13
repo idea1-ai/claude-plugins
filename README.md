@@ -1,6 +1,6 @@
-# Idea1.ai Plugins for Claude Code
+# Idea1 Plugins for Claude Code
 
-[Idea1.ai](https://idea1.ai) project management skills and tools for Claude Code and Claude Cowork.
+[Idea1](https://idea1.ai) project management skills and tools for Claude Code and Claude Cowork.
 
 ## Installation
 
@@ -27,15 +27,15 @@ After installing, toggle **"sync automatically"** (Cowork) or enable auto-update
 
 ### idea1 plugin
 
-Skills and an MCP server connection for managing Idea1.ai projects from within Claude Code.
+Skills and an MCP server connection for managing Idea1 projects from within Claude Code.
 
 **Skills:**
 
-- `/idea1:status` — Check the Idea1.ai plugin connection, verify OAuth authentication, and see which team and project are active.
+- `/idea1:status` — Check the Idea1 plugin connection, verify OAuth authentication, and see which team and project are active.
 
 **MCP server:**
 
-Connects to the Idea1.ai API at `https://api.idea1.ai/v1/mcp`. Authentication is handled via OAuth — Claude Code will prompt you to authorize on first use.
+Connects to the Idea1 API at `https://api.idea1.ai/v1/mcp`. Authentication is handled via OAuth — Claude Code will prompt you to authorize on first use.
 
 ## Source
 

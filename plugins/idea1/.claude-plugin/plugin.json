@@ -1,9 +1,9 @@
 {
   "name": "idea1",
-  "description": "Idea1.ai project management skills and tools for Claude Code",
+  "description": "Idea1 project management skills and tools for Claude Code",
   "author": {
-    "name": "Idea1.ai"
+    "name": "Idea1"
   },
   "homepage": "https://idea1.ai",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

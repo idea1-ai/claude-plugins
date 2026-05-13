@@ -1,16 +1,16 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "idea1-plugins",
-  "description": "Idea1.ai project management skills and tools for Claude Code and Claude Cowork",
+  "description": "Idea1 project management skills and tools for Claude Code and Claude Cowork",
   "owner": {
-    "name": "Idea1.ai"
+    "name": "Idea1"
   },
   "plugins": [
     {
       "name": "idea1",
       "source": "./plugins/idea1",
-      "version": "1.0.0",
-      "description": "Idea1.ai project management skills and tools for Claude Code"
+      "version": "1.0.1",
+      "description": "Idea1 project management skills and tools for Claude Code"
     }
   ]
 }
