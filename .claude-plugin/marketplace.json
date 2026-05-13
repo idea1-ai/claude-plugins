@@ -9,7 +9,7 @@
     {
       "name": "idea1",
       "source": "./plugins/idea1",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "description": "Idea1.ai project management skills and tools for Claude Code"
     }
   ]

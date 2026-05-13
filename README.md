@@ -11,11 +11,17 @@ In Claude Code (CLI or Desktop), add the marketplace and install the plugin:
 /plugin install idea1@idea1-plugins
 ```
 
-In Claude Cowork (Desktop), use the **Customize** panel to add this marketplace and install the **idea1** plugin from it.
+In Claude Cowork (Desktop), open the **Customize** panel and add this marketplace by URL:
+
+```
+https://github.com/idea1-ai/claude-plugins
+```
+
+Then install the **idea1** plugin from it.
 
 ## Auto-update
 
-The plugin enables auto-update for this marketplace on first session start, so future releases roll out without manual action. To verify or change this manually, open the `/plugin` UI in Claude Code, select **Marketplaces** → **idea1-plugins**, and check the auto-update toggle.
+After installing, toggle **"sync automatically"** (Cowork) or enable auto-update for the marketplace in the `/plugin` UI's Marketplaces tab (Claude Code) so future releases roll out without manual action.
 
 ## What's included
 

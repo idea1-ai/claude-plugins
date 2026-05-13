@@ -13,7 +13,7 @@ Use this skill to verify the Idea1.ai plugin is connected and working correctly.
 
    a. **Latest version** — Call `mcp__idea1__get_plugin_versions` to get the latest available plugin version. The result contains a `plugins` object with plugin names as keys and version strings as values (e.g., `plugins.idea1`). This also verifies MCP connectivity and authentication.
 
-   b. **Installed version** — The installed version is: `0.0.1`
+   b. **Installed version** — The installed version is: `1.0.0`
       If this still shows a value containing `{{`, the version was not injected at build time — report the installed version as "unknown".
 
 2. After both checks complete, determine connection and version status:
