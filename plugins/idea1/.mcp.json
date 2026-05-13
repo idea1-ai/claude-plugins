@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "idea1": {
+      "type": "http",
+      "url": "https://api.idea1.ai/v1/mcp"
+    }
+  }
+}
